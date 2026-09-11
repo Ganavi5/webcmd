@@ -1,0 +1,16 @@
+{
+  "name": "labellens-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.x",
+    "cors": "^2.x",
+    "dotenv": "^16.x",
+    "axios": "^1.x"
+  }
+}

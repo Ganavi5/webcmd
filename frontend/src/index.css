@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+body {
+  @apply bg-gradient-to-br from-brand-900 via-brand-800 to-brand-700 text-white min-h-screen;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl;
+}
+
+.btn-primary {
+  @apply bg-brand-500 hover:bg-brand-400 text-white font-semibold px-5 py-2.5 rounded-xl transition shadow-lg;
+}
